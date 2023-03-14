@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "namespace": "com.jmp.avro",
+  "name": "Book",
+  "version": "1",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "total_pages",
+      "type": "int"
+    },
+    {
+      "name": "author",
+      "type": "string"
+    }
+  ]
+}
